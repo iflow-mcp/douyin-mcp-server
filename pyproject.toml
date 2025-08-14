@@ -36,3 +36,6 @@ Issues = "https://github.com/yzfly/douyin-mcp-server/issues"
 
 [project.scripts]
 douyin-mcp-server = "douyin_mcp_server.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["douyin_mcp_server"]
